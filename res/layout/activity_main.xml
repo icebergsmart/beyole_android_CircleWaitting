@@ -4,17 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    
     <com.beyole.view.CustomProgressbar
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-    
+        android:layout_marginTop="20dp"
+        beyole:circleWidth="20dp"
         beyole:firstColor="#D4F668"
         beyole:secondColor="#2F9DD2"
-        beyole:speed="20"
-         />
+        beyole:speed="20" />
 
 </RelativeLayout>
